@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <!--Head는 이 페이지의 정보-->
+    <title>1-1입니다</title>
+    <!--웹페이지에서 탭이름-->
+  </head>
+
+  <body>
+    <!--Body는 눈으로 보이는 부분-->
+    <h1>안녕하세요</h1>
+    <!--head level 1 / 제목 1-->
+    <button>Click!</button
+    ><!--버튼 생성-->
+    <strong>
+      <p>abcd</p>
+    </strong>
+    <!--굵은 글씨-->
+
+    <!--Unordered List. 점으로 나타남-->
+    <!-- <ul>
+            
+            <li>첫번째</li>
+            <li>두번째</li>
+            <li>세번째</li>
+        </ul>-->
+    <!--Ordered List. 숫자로 나타남-->
+    <!-- <ol>
+            <li>첫번째</li>
+            <li>두번째</li>
+            <li>세번째</li>
+        </ol> -->
+
+    <table border="1">
+      <!--테이블을 그리겠다. 테두리는 1로-->
+      <thead>
+        <tr>
+          <!--Table Row-->
+          <td>1-1</td>
+          <!--Talbe Data-->
+          <td>1-2</td>
+          <td>1-3</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2-1</td>
+          <td>2-2</td>
+          <td>2-3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>3-1</td>
+          <td>3-2</td>
+          <td>3-3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- input type 속성만으로 변화 확인-->
+    <input type="text" />
+    <input type="button" value="버튼" />
+    <input type="color" />
+    <input type="image" />
+    <input type="radio" />
+
+    <!-- input 속성으로 유저 입력 제한 -->
+    <hr />
+
+    <form>
+      <!--로그인하는 곳의 모양 만들때 사용-->
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+      <!--form 안에 button이 있으면 자동매치-->
+      <button>제출</button>
+    </form>
+
+    <!-- 인라인 스타일 -->
+    <p style="background: blue">안녕하세요</p>
+
+    <!-- class -->
+    <p class="hello">안녕하세요</p>
+
+    <!--id -->
+    <p id="hello-1">안녕하세요</p>
+
+    <!-- 사용자 지정 데이터 특성(custom data attribute) -->
+    <p data-id="hello-1">안녕하세요</p>
+  </body>
+</html>

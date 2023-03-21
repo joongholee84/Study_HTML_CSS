@@ -1,0 +1,64 @@
+button {
+  color: blue;
+  width: 100px;
+}
+
+/*주석은 이렇게*/
+/*요서 선택자*/
+h1 {
+  color: blue;
+}
+h2 {
+  color: blue;
+}
+h3 {
+  color: blue;
+}
+
+h1,
+h2,
+h3 {
+  color: blue;
+}
+
+* {
+  color: blue;
+}
+
+/*클래스 선택자*/
+/* 앞에 .을 붙인다 */
+.samsung {
+  color: blue;
+}
+.fast-campus {
+  width: 100px;
+}
+/*
+html 에서는
+<button class="samsung fast-campus">버튼</button>
+이렇게 쓰고, class 여러개를 쓰려면 띄워쓰기로 구분한다.
+*/
+
+/*id 선택자*/
+/* 앞에 # 붙임 */
+#samsung {
+  color: blue;
+}
+/* HTML 에서는
+<button id="samsung">버튼</button>
+
+/*가상선택자. :을 중심으로 action 지정*/
+button:link {
+  color: Red;
+  width: 200px;
+}
+button:hover {
+  /* 마우스 올릴 때*/
+  color: green;
+  width: 300px;
+}
+button:active {
+  /* 마우스 왼쪽 버튼 누를 때 */
+  color: darkorchid;
+  width: 400px;
+}
