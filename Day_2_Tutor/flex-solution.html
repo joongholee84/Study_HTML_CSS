@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>삼성 x 패스트캠퍼스 Day 2 - Flex Box</title>
+
+		<style>
+			.container {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+				background-color: aqua;
+				padding: 10px;
+			}
+
+			.item {
+				width: 100px;
+				flex-grow: 1;
+				background-color: yellowgreen;
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item">아이템1</div>
+			<div class="item">아이템2</div>
+			<div class="item">아이템3</div>
+		</div>
+		<div class="container">
+			<div class="item">아이템1</div>
+			<div class="item">아이템2</div>
+			<div class="item">아이템3</div>
+		</div>
+		<div class="container">
+			<div class="item">아이템1</div>
+			<div class="item">아이템2</div>
+			<div class="item">아이템3</div>
+		</div>
+		<div class="container">
+			<div class="item">아이템 하나</div>
+			<div class="item">아이템 둘</div>
+			<div class="item">아이템 셋</div>
+			<div class="item">아이템 넷</div>
+		</div>
+	</body>
+</html>

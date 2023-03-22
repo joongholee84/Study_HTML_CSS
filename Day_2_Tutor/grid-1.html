@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>삼성 x 패스트캠퍼스 Day 2 - Grid 1</title>
+
+		<style>
+			.container {
+				width: auto;
+				display: grid;
+				background-color: aqua;
+				padding: 10px;
+			}
+			/* ~400px */
+			@media (max-width: 400px) {
+				.container {
+					grid-template-rows: 1fr 1fr 1fr;
+				}
+			}
+
+			/* 401px~ */
+			@media (min-width: 401px) {
+				.container {
+					grid-template-columns: 1fr 1fr 1fr;
+				}
+			}
+
+			.item {
+				background-color: yellowgreen;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item">아이템1</div>
+			<div class="item">아이템2</div>
+			<div class="item">아이템3</div>
+		</div>
+	</body>
+</html>
